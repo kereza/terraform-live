@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "instances" {
- source = "git@github.com:kereza/terraform-modules.git//instances?ref=v0.0.1"
+ source = "git@github.com:kereza/terraform-modules.git//instances?ref=0.0.1"
 
  remote_key = "stage/subnet/terraform.tfstate"
  private_ips = "10.10.10.10"
