@@ -10,7 +10,7 @@
      iam_instance_profile    = "dev-default"
      root_block_device {
          volume_type = "gp2"
-         volume_size = "40"
+         volume_size = "80"
          delete_on_termination = true
          encrypted             = true
      }
