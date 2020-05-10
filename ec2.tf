@@ -2,7 +2,7 @@
  resource "aws_instance" "pdfprint_tfcloud" {
      count = 1
      instance_type           = "r5.xlarge"
-     ami                     = "ami-07f6b106b9cedd052"
+     ami                     = "ami-0789b16020b7c0ac9"
      key_name                = "dev"
      vpc_security_group_ids  = ["sg-075152b4567538a03"]
      subnet_id               = "subnet-0d5930db6c19999ef"
